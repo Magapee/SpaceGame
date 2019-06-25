@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Main architecture">
+      <UniqueIdentifier>{5c63636e-a63c-4da6-8a59-7bffb653d903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Tools">
+      <UniqueIdentifier>{8de6e7ce-f643-444d-acf6-2fa76d61e8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Not an engine">
+      <UniqueIdentifier>{a8966cda-c201-412e-9270-8c9d8673a780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Scene logic">
+      <UniqueIdentifier>{6f8e8a1a-6cef-4494-be81-658c19766819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Not an engine\Grafics">
+      <UniqueIdentifier>{3a4dd32e-0798-4b64-9931-8f3097914b70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\Main architecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\Main architecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorsHandler.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsLoader.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Исходные файлы\Main architecture</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInitializer.cpp">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClCompile>
+    <ClCompile Include="MyActor.cpp">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Исходные файлы\Main architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCodes.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Coord.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorsHandler.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsLoader.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Исходные файлы\Main architecture</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInitializer.h">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInitializer.h">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Исходные файлы\Scene logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MyActor.h">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Исходные файлы\Not an engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stickman.bmp">
+      <Filter>Исходные файлы\Not an engine\Grafics</Filter>
+    </Image>
+    <Image Include="wall.bmp">
+      <Filter>Исходные файлы\Not an engine\Grafics</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
