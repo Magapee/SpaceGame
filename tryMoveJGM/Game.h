@@ -21,8 +21,8 @@ using std::vector;
 using namespace std;
 
 
-const int TPS = 60;
-const int MS_PER_TICK = 1000 / TPS;
+const  std::chrono::nanoseconds TPS(60);
+const  std::chrono::nanoseconds MS_PER_TICK(static_cast<std::chrono::nanoseconds>(1000) * 1000000/TPS );
 
 
 class Game
@@ -43,7 +43,7 @@ public:
 	//void loadContent(char*); //откуда это?!?!?!
 	void step(); //метод обработки внутренних состояний
 	void render(); //метод рисования на экран
-	auto getLogger();
+    std::shared_ptr<Logger> getLogger();
 	Game(); //конструктор, включающий в себя инициализацию всех основных систем
 	~Game(); //*внезапно* очистка памяти *крик аутиста*
 };

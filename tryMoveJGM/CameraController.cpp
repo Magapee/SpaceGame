@@ -27,9 +27,9 @@ void CameraController::step()
     else if(this->controller->checkKey(keyCodes::RIGHT))
         cx++;
 	if (this->controller->checkKey(keyCodes::N))
-		ca -= 10;
+		ca--;
 	else if (this->controller->checkKey(keyCodes::M))
-		ca += 10;
+		ca++;
 	std::stringstream message;
 	if ((cx) || (cy) || (ca))
 	{

@@ -19,13 +19,13 @@
     <Filter Include="Исходные файлы\Tools">
       <UniqueIdentifier>{8de6e7ce-f643-444d-acf6-2fa76d61e8ec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\Not an engine">
-      <UniqueIdentifier>{a8966cda-c201-412e-9270-8c9d8673a780}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Исходные файлы\Scene logic">
       <UniqueIdentifier>{6f8e8a1a-6cef-4494-be81-658c19766819}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\Not an engine\Grafics">
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{a8966cda-c201-412e-9270-8c9d8673a780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game\Grafics">
       <UniqueIdentifier>{3a4dd32e-0798-4b64-9931-8f3097914b70}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -52,10 +52,10 @@
       <Filter>Исходные файлы\Main architecture</Filter>
     </ClCompile>
     <ClCompile Include="MyInitializer.cpp">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClCompile>
     <ClCompile Include="CameraController.cpp">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClCompile>
     <ClCompile Include="Actor.cpp">
       <Filter>Исходные файлы\Scene logic</Filter>
@@ -70,10 +70,10 @@
       <Filter>Исходные файлы\Scene logic</Filter>
     </ClCompile>
     <ClCompile Include="MyActor.cpp">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClCompile>
     <ClCompile Include="Wall.cpp">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -105,10 +105,10 @@
       <Filter>Исходные файлы\Main architecture</Filter>
     </ClInclude>
     <ClInclude Include="MyInitializer.h">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClInclude>
     <ClInclude Include="CameraController.h">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClInclude>
     <ClInclude Include="Actor.h">
       <Filter>Исходные файлы\Scene logic</Filter>
@@ -126,10 +126,10 @@
       <Filter>Исходные файлы\Scene logic</Filter>
     </ClInclude>
     <ClInclude Include="MyActor.h">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClInclude>
     <ClInclude Include="Wall.h">
-      <Filter>Исходные файлы\Not an engine</Filter>
+      <Filter>Исходные файлы\Game</Filter>
     </ClInclude>
     <ClInclude Include="Macros.h">
       <Filter>Исходные файлы\Tools</Filter>
@@ -137,10 +137,10 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="stickman.bmp">
-      <Filter>Исходные файлы\Not an engine\Grafics</Filter>
+      <Filter>Исходные файлы\Game\Grafics</Filter>
     </Image>
     <Image Include="wall.bmp">
-      <Filter>Исходные файлы\Not an engine\Grafics</Filter>
+      <Filter>Исходные файлы\Game\Grafics</Filter>
     </Image>
   </ItemGroup>
 </Project>

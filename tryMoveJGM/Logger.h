@@ -20,8 +20,6 @@ using std::cerr;
 using std::string;
 using std::localtime;
 
-//update 28.04.2019 now Logger can create directory
-//if creating logFile was not success, application will shoot down
 
 class Logger
 {

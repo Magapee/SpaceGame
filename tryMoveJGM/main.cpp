@@ -8,13 +8,14 @@ int main(int arg, char* args[])
     Game* game = new Game;
 	try
 	{
-        int previousFrame = SDL_GetTicks();
-        int lagTime = 0;
+        auto previousFrame = std::chrono::steady_clock::now();
+        std::chrono::nanoseconds lagTime(0);
         while(game->isRunning())
         {
             static bool isStepped;
             isStepped = false;
-            int currentFrame = SDL_GetTicks();
+            static std::chrono::steady_clock::time_point currentFrame;
+            currentFrame = std::chrono::steady_clock::now();
             lagTime += currentFrame - previousFrame;
             previousFrame = currentFrame;
 
@@ -26,7 +27,9 @@ int main(int arg, char* args[])
                 lagTime -= MS_PER_TICK;
             }
             if (isStepped)
+            {
                 game->render();
+            }
 
         }
         delete game;

@@ -79,7 +79,7 @@ Game::~Game() //*autistic screams*
 }
 
 
-auto Game::getLogger()
+std::shared_ptr<Logger> Game::getLogger()
 {
 	return this->logger;
 }
